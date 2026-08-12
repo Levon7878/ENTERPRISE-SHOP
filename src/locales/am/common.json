@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Գլխավոր",
+    "categories": "Կատեգորիաներ",
+    "bestSellers": "Լավագույն վաճառքներ",
+    "newArrivals": "Նորույթներ",
+    "discounts": "Զեղչեր",
+    "brands": "Բրենդներ",
+    "compare": "Համեմատել",
+    "wishlist": "Նախընտրածներ",
+    "cart": "Զամբյուղ",
+    "searchPlaceholder": "Փնտրել ապրանքներ...",
+    "allCategories": "Բոլոր կատեգորիաները",
+    "phoneContact": "+374 10 00-00-00",
+    "deliveryTrack": "Պատվերի կարգավիճակ",
+    "productSuggestions": "Առաջարկվող ապրանքներ"
+  },
+  "advantages": {
+    "title": "Ինչու՞ ընտրել մեզ",
+    "warrantyTitle": "Պաշտոնական երաշխիք",
+    "warrantyDesc": "Մինչև 36 ամիս երաշխիք բոլոր ապրանքներին",
+    "deliveryTitle": "Արագ առաքում",
+    "deliveryDesc": "Առաքում Երևանում 1-2 ժամում",
+    "creditTitle": "Գնում ապառիկով",
+    "creditDesc": "Ընտրեք ապրանք և ձևակերպեք ապառիկը առցանց",
+    "supportTitle": "24/7 Աջակցություն",
+    "supportDesc": "Պրոֆեսիոնալ խորհրդատվություն"
+  },
+  "footer": {
+    "about": "Մեր մասին",
+    "aboutDesc": "Enterprise Shop-ը Հայաստանում տեխնիկայի առաջատար օնլայն հարթակն է:",
+    "catalog": "Կատալոգ",
+    "customerCare": "Գնորդներին",
+    "contacts": "Կոնտակտներ",
+    "address": "ք. Երևան, Հանրապետության Հրապարակ 1",
+    "rights": "Բոլոր իրավունքները պաշտպանված են:",
+    "newsletter": "Բաժանորդագրություն",
+    "newsletterDesc": "Ստացեք զեղչեր և նորույթներ:",
+    "newsletterPlaceholder": "Էլ. հասցե",
+    "newsletterJoin": "Գրանցվել",
+    "seoTitle": "Օնլայն խանութ Հայաստանում — Enterprise Shop",
+    "seoText": "Enterprise Shop — օնլայն հիպերմարկետ Երևանում: Պաշտոնական երաշխիք, առաքում և ապառիկ՝ ընտրելով ապրանքը:"
+  },
+  "buttons": {
+    "buyNow": "Գնել հիմա",
+    "addToCart": "Զամբյուղ",
+    "buyInCredit": "Գնել ապառիկ",
+    "viewDetails": "Մանրամասն",
+    "applyFilters": "Կիրառել ֆիլտրերը",
+    "resetFilters": "Մաքրել ֆիլտրերը",
+    "checkout": "Ձևակերպել պատվերը",
+    "backToHome": "Վերադառնալ Գլխավոր",
+    "loadMore": "Բեռնել ավելին"
+  },
+  "home": {
+    "heroBadge": "Պրեմիում տեխնիկա",
+    "heroTitle": "Օնլայն խանութ",
+    "heroTitleAccent": "տեխնիկայի համար",
+    "heroDescription": "Լայն տեսականի՝ երաշխիքով և ապառիկով: Ընտրեք ապրանք և ձևակերպեք գնումը:",
+    "seoDescription": "Enterprise Shop — օնլայն խանութ Հայաստանում:",
+    "popularCategories": "Հանրաճանաչ կատեգորիաներ",
+    "popularCategoriesDesc": "Բացահայտեք կատալոգը",
+    "itemsCount": "{{count}} ապրանք",
+    "topDeals": "Լավագույն առաջարկներ",
+    "featured": "Ընտրված",
+    "brandPartners": "Բրենդ գործընկերներ",
+    "reviewsTitle": "Գնորդների կարծիքներ",
+    "verifiedBuyer": "Հաստատված գնորդ",
+    "faqTitle": "Հաճախ տրվող հարցեր",
+    "faqDesc": "Ամեն ինչ գնման, առաքման և ապառիկի մասին"
+  },
+  "search": {
+    "title": "Փնտրում",
+    "button": "Փնտրել",
+    "resultsFor": "Արդյունքներ «{{query}}» հարցման համար",
+    "found": "Գտնվել է՝ {{count}}",
+    "hint": "Մուտքագրեք անուն, բրենդ կամ կոդ — առանց մեծ/փոքր տառի տարբերության (A–Z)",
+    "empty": "Ոչինչ չի գտնվել։ Փորձեք այլ հարցում։",
+    "clear": "Մաքրել",
+    "noSuggestions": "Ոչինչ չի գտնվել"
+  }
+}

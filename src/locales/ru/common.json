@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Главная",
+    "categories": "Категории",
+    "bestSellers": "Хиты продаж",
+    "newArrivals": "Новинки",
+    "discounts": "Скидки",
+    "brands": "Бренды",
+    "compare": "Сравнение",
+    "wishlist": "Избранное",
+    "cart": "Корзина",
+    "searchPlaceholder": "Поиск товаров...",
+    "allCategories": "Все категории",
+    "phoneContact": "+374 10 00-00-00",
+    "deliveryTrack": "Отследить заказ",
+    "productSuggestions": "Подсказки по товарам"
+  },
+  "advantages": {
+    "title": "Почему выбирают нас",
+    "warrantyTitle": "Официальная гарантия",
+    "warrantyDesc": "До 36 месяцев гарантии на всё",
+    "deliveryTitle": "Быстрая доставка",
+    "deliveryDesc": "Доставка по Еревану от 1-2 часов",
+    "creditTitle": "Покупка в кредит",
+    "creditDesc": "Выберите товар и оформите кредит онлайн",
+    "supportTitle": "Поддержка 24/7",
+    "supportDesc": "Профессиональные консультации"
+  },
+  "footer": {
+    "about": "О компании",
+    "aboutDesc": "Enterprise Shop — ведущий онлайн-гипермаркет техники в Армении.",
+    "catalog": "Каталог",
+    "customerCare": "Покупателям",
+    "contacts": "Контакты",
+    "address": "г. Ереван, Площадь Республики 1",
+    "rights": "Все права защищены.",
+    "newsletter": "Рассылка",
+    "newsletterDesc": "Подпишитесь на скидки и новости.",
+    "newsletterPlaceholder": "Email",
+    "newsletterJoin": "Подписаться",
+    "seoTitle": "Интернет-магазин в Армении — Enterprise Shop",
+    "seoText": "Enterprise Shop — онлайн-гипермаркет в Ереване. Официальная гарантия, доставка и кредит при выборе товара."
+  },
+  "buttons": {
+    "buyNow": "Купить сейчас",
+    "addToCart": "В корзину",
+    "buyInCredit": "Купить в кредит",
+    "viewDetails": "Подробнее",
+    "applyFilters": "Применить фильтры",
+    "resetFilters": "Сбросить фильтры",
+    "checkout": "Оформить заказ",
+    "backToHome": "На главную",
+    "loadMore": "Загрузить ещё"
+  },
+  "home": {
+    "heroBadge": "Премиум техника",
+    "heroTitle": "Интернет-магазин",
+    "heroTitleAccent": "техники",
+    "heroDescription": "Широкий ассортимент с гарантией и кредитом. Выберите товар и оформите покупку.",
+    "seoDescription": "Enterprise Shop — интернет-магазин в Армении.",
+    "popularCategories": "Популярные категории",
+    "popularCategoriesDesc": "Смотрите наш каталог",
+    "itemsCount": "{{count}} товаров",
+    "topDeals": "Лучшие предложения",
+    "featured": "Избранное",
+    "brandPartners": "Бренды-партнёры",
+    "reviewsTitle": "Отзывы покупателей",
+    "verifiedBuyer": "Проверенный покупатель",
+    "faqTitle": "Часто задаваемые вопросы",
+    "faqDesc": "Всё о покупке, доставке и кредите"
+  },
+  "search": {
+    "title": "Поиск",
+    "button": "Найти",
+    "resultsFor": "Результаты по запросу «{{query}}»",
+    "found": "Найдено: {{count}}",
+    "hint": "Введите название, бренд или артикул — без учёта регистра (A–Z)",
+    "empty": "Ничего не найдено. Попробуйте другой запрос.",
+    "clear": "Очистить",
+    "noSuggestions": "Ничего не найдено"
+  }
+}

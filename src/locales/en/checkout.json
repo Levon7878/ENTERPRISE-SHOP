@@ -1,0 +1,28 @@
+{
+  "title": "Checkout",
+  "steps": {
+    "cart": "Cart",
+    "shipping": "Shipping",
+    "payment": "Payment",
+    "confirmation": "Confirmation"
+  },
+  "shippingForm": {
+    "fullName": "Recipient Full Name",
+    "phone": "Phone Number",
+    "city": "City / Location",
+    "address": "Street Address",
+    "notes": "Courier Delivery Notes"
+  },
+  "paymentMethods": {
+    "cash": "Cash on Delivery",
+    "card": "Bank Card (Visa / Mastercard / ArCa)",
+    "credit": "Apply for Credit Online"
+  },
+  "summary": {
+    "itemsTotal": "Items Subtotal",
+    "shippingFee": "Shipping Fee",
+    "freeShipping": "FREE",
+    "discount": "Discount",
+    "total": "Order Total"
+  }
+}

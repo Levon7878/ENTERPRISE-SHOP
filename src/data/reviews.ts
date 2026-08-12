@@ -1,0 +1,48 @@
+import { Review } from '../shared/types';
+
+export const mockReviews: Review[] = [
+  {
+    id: 'rev-1',
+    productId: '1',
+    userName: 'Արմեն Գրիգորյան',
+    userAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80',
+    rating: 5,
+    comment: 'iPhone 17 Pro-ն պարզապես հրաշալիք է: Տիտանե korpus-ը շատ թեթև է, իսկ 120Hz էկրանը և A19 Pro պրոցեսորը թռչում են: Ապառիկը Ameriabank-ով ձևակերպվեց 3 րոպեում:',
+    date: '2026-08-04',
+    verifiedPurchase: true,
+    likes: 18,
+  },
+  {
+    id: 'rev-2',
+    productId: '1',
+    userName: 'Елена Смирнова',
+    userAvatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80',
+    rating: 5,
+    comment: 'Купила iPhone 17 Pro с курьерской доставкой. Привезли через 2 часа в Ереване! Камера снимает видео лучше профессиональных фотоаппаратов.',
+    date: '2026-08-02',
+    verifiedPurchase: true,
+    likes: 24,
+  },
+  {
+    id: 'rev-3',
+    productId: '2',
+    userName: 'David Miller',
+    userAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80',
+    rating: 5,
+    comment: 'MacBook Pro 16 M4 Max is absolute beast for 8K video rendering. Battery lasts all day without dipping in performance.',
+    date: '2026-08-03',
+    verifiedPurchase: true,
+    likes: 15,
+  },
+  {
+    id: 'rev-4',
+    productId: '6',
+    userName: 'Գոռ Հարությունյան',
+    userAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80',
+    rating: 5,
+    comment: 'PS5 Pro-ն 4K 120FPS-ով ցուցադրում է անհավանական գրաֆիկա: PSSR տեխնոլոգիան հրաշալի է աշխատում:',
+    date: '2026-08-05',
+    verifiedPurchase: true,
+    likes: 31,
+  },
+];

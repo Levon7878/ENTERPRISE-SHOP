@@ -1,0 +1,28 @@
+{
+  "title": "Оформление заказа",
+  "steps": {
+    "cart": "Корзина",
+    "shipping": "Доставка",
+    "payment": "Оплата",
+    "confirmation": "Подтверждение"
+  },
+  "shippingForm": {
+    "fullName": "ФИО получателя",
+    "phone": "Телефон",
+    "city": "Город / Населённый пункт",
+    "address": "Улица, дом, квартира",
+    "notes": "Комментарий к курьеру"
+  },
+  "paymentMethods": {
+    "cash": "Наличными при получении",
+    "card": "Банковской картой (Visa / Mastercard / ArCa)",
+    "credit": "Оформить в кредит онлайн"
+  },
+  "summary": {
+    "itemsTotal": "Стоимость товаров",
+    "shippingFee": "Стоимость доставки",
+    "freeShipping": "Бесплатно",
+    "discount": "Скидка",
+    "total": "Итого к оплате"
+  }
+}

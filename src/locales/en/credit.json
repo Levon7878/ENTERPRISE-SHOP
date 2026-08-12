@@ -1,0 +1,38 @@
+{
+  "title": "Buy on credit",
+  "subtitle": "Choose bank, term and monthly payment for this product",
+  "calculator": {
+    "term": "Loan Term (Months)",
+    "downPayment": "Down Payment (AMD)",
+    "monthlyPayment": "Monthly Payment",
+    "totalOverpayment": "Total Overpayment",
+    "interestRate": "Annual Interest Rate",
+    "selectBank": "Select Bank",
+    "applyNow": "Continue to application",
+    "productPrice": "Product price",
+    "minDown": "Min. down payment",
+    "summary": "Order summary",
+    "creditAmount": "Credit amount",
+    "totalRepayment": "Total to pay",
+    "buyWithBank": "Buy with {{bank}}",
+    "viewSchedule": "Payment schedule",
+    "hideSchedule": "Hide schedule"
+  },
+  "banks": {
+    "approvalSpeed": "Approval Speed",
+    "features": "Key Features",
+    "selected": "Selected",
+    "minutes": "min",
+    "monthsShort": "mo",
+    "rateFrom": "Rate from"
+  },
+  "modal": {
+    "title": "Online Credit Application",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "passport": "Passport / National ID Number",
+    "income": "Monthly Income (AMD)",
+    "submit": "Submit Application",
+    "success": "Application submitted successfully! A bank representative will call you in 5 minutes."
+  }
+}

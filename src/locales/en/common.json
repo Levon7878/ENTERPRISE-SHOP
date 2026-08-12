@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "bestSellers": "Best Sellers",
+    "newArrivals": "New Arrivals",
+    "discounts": "Discounts",
+    "brands": "Brands",
+    "compare": "Compare",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "searchPlaceholder": "Search products...",
+    "allCategories": "All Categories",
+    "phoneContact": "+374 10 00-00-00",
+    "deliveryTrack": "Track Order",
+    "productSuggestions": "Product suggestions"
+  },
+  "advantages": {
+    "title": "Why Choose Us",
+    "warrantyTitle": "Official Warranty",
+    "warrantyDesc": "Up to 36 months warranty on all items",
+    "deliveryTitle": "Express Delivery",
+    "deliveryDesc": "Yerevan delivery within 1-2 hours",
+    "creditTitle": "Buy on Credit",
+    "creditDesc": "Choose a product and apply for credit online",
+    "supportTitle": "24/7 Support",
+    "supportDesc": "Professional expert consultation"
+  },
+  "footer": {
+    "about": "About Us",
+    "aboutDesc": "Enterprise Shop is Armenia's premier online marketplace for technology products.",
+    "catalog": "Catalog",
+    "customerCare": "Customer Care",
+    "contacts": "Contacts",
+    "address": "Republic Square 1, Yerevan",
+    "rights": "All rights reserved.",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe for exclusive discounts and news.",
+    "newsletterPlaceholder": "Email address",
+    "newsletterJoin": "Join",
+    "seoTitle": "Online store in Armenia — Enterprise Shop",
+    "seoText": "Enterprise Shop is an online hypermarket in Yerevan. Official warranty, delivery, and credit when you choose a product."
+  },
+  "buttons": {
+    "buyNow": "Buy Now",
+    "addToCart": "Add to Cart",
+    "buyInCredit": "Buy on Credit",
+    "viewDetails": "View Details",
+    "applyFilters": "Apply Filters",
+    "resetFilters": "Reset Filters",
+    "checkout": "Proceed to Checkout",
+    "backToHome": "Back to Home",
+    "loadMore": "Load More"
+  },
+  "home": {
+    "heroBadge": "Premium Tech Store",
+    "heroTitle": "Online store for",
+    "heroTitleAccent": "technology",
+    "heroDescription": "A wide range with warranty and credit. Choose a product and complete your purchase.",
+    "seoDescription": "Enterprise Shop — online store in Armenia.",
+    "popularCategories": "Popular Categories",
+    "popularCategoriesDesc": "Explore our catalog",
+    "itemsCount": "{{count}} items",
+    "topDeals": "Top Deals",
+    "featured": "Featured",
+    "brandPartners": "Brand Partners",
+    "reviewsTitle": "Buyer Reviews",
+    "verifiedBuyer": "Verified Buyer",
+    "faqTitle": "Frequently Asked Questions",
+    "faqDesc": "Everything about purchasing, delivery and credit"
+  },
+  "search": {
+    "title": "Search",
+    "button": "Search",
+    "resultsFor": "Results for “{{query}}”",
+    "found": "Found: {{count}}",
+    "hint": "Type a product name, brand or SKU — case-insensitive (A–Z)",
+    "empty": "No products found. Try another query.",
+    "clear": "Clear",
+    "noSuggestions": "No matches"
+  }
+}

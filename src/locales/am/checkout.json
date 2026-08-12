@@ -1,0 +1,28 @@
+{
+  "title": "Պատվերի Ձևակերպում",
+  "steps": {
+    "cart": "Զամբյուղ",
+    "shipping": "Առաքում",
+    "payment": "Վճարում",
+    "confirmation": "Հաստատում"
+  },
+  "shippingForm": {
+    "fullName": "Ստացողի Անուն Ազգանուն",
+    "phone": "Հեռախոսահամար",
+    "city": "Քաղաք / Բնակավայր",
+    "address": "Փողոց, շենք, բնակարան",
+    "notes": "Մեկնաբանություն առաքիչին"
+  },
+  "paymentMethods": {
+    "cash": "Կանխիկ առաքման պահին",
+    "card": "Բանկային քարտ (Visa / Mastercard / ArCa)",
+    "credit": "Ապառիկ ձևակերպում"
+  },
+  "summary": {
+    "itemsTotal": "Ապրանքների գումարը",
+    "shippingFee": "Առաքման արժեքը",
+    "freeShipping": "Անվճար",
+    "discount": "Զեղչ",
+    "total": "Ընդամենը վճարման"
+  }
+}

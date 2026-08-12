@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shop.enterprise-electronics.com/sitemap.xml
+Sitemap: https://shop.enterprise-electronics.com/sitemap-am.xml
+Sitemap: https://shop.enterprise-electronics.com/sitemap-ru.xml
+Sitemap: https://shop.enterprise-electronics.com/sitemap-en.xml
