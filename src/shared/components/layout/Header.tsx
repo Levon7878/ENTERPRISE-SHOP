@@ -8,7 +8,6 @@ import {
   Scale,
   Phone,
   Layers,
-  Sparkles,
   ChevronRight,
   X,
 } from 'lucide-react';
@@ -122,9 +121,13 @@ export const Header: React.FC<HeaderProps> = ({ onOpenCart }) => {
             className="flex items-center gap-2 group shrink-0"
             aria-label="Home"
           >
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform shrink-0">
-              <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-            </div>
+            <img
+              src="/favicon.svg"
+              alt="Enterprise Shop"
+              className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl shadow-lg group-hover:scale-105 transition-transform shrink-0"
+              width={40}
+              height={40}
+            />
             <span className="hidden sm:inline text-lg xl:text-xl font-black tracking-tight text-white whitespace-nowrap">
               ENTERPRISE
               <span className="text-blue-400 font-extrabold ml-1">SHOP</span>

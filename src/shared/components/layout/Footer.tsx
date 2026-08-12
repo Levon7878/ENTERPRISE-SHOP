@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ShieldCheck, Truck, CreditCard, Headphones, Sparkles, Mail, MapPin, Phone } from 'lucide-react';
+import { ShieldCheck, Truck, CreditCard, Headphones, Mail, MapPin, Phone } from 'lucide-react';
 import { mockCategories } from '../../../data/categories';
 import { Language } from '../../types';
 
@@ -62,9 +62,13 @@ export const Footer: React.FC = () => {
         {/* Brand Col */}
         <div className="lg:col-span-2 space-y-4">
           <Link to={`/${currentLang}/`} className="flex items-center space-x-2.5">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center shadow-lg">
-              <Sparkles className="w-5 h-5 text-white" />
-            </div>
+            <img
+              src="/favicon.svg"
+              alt="Enterprise Shop"
+              className="w-9 h-9 rounded-xl shadow-lg"
+              width={36}
+              height={36}
+            />
             <span className="text-xl font-black text-white tracking-tight">
               ENTERPRISE<span className="text-blue-400 ml-1">SHOP</span>
             </span>
