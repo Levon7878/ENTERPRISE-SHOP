@@ -20,9 +20,9 @@ import { CreditCalculator } from '../features/credit/CreditCalculator';
 import { CreditApplicationForm } from '../features/credit/CreditApplicationFormInline';
 import { Modal } from '../shared/components/ui/Modal';
 import { RatingStars } from '../shared/components/ui/RatingStars';
-import { useCartStore } from '../app/store/useCartStore';
 import { useWishlistStore } from '../app/store/useWishlistStore';
 import { useCompareStore, useCurrencyStore } from '../app/store/useCompareStore';
+import { useAddToCart } from '../shared/hooks/useAddToCart';
 import { Language } from '../shared/types';
 
 type CreditStep = 'calculator' | 'application';
@@ -53,7 +53,7 @@ export const ProductDetailPage: React.FC = () => {
   const { data: reviews } = useReviews(product?.id);
   const { data: allProducts } = useProducts();
 
-  const addItem = useCartStore((state) => state.addItem);
+  const addToCart = useAddToCart();
   const { toggleWishlist, isInWishlist } = useWishlistStore();
   const { toggleCompare, isInCompare } = useCompareStore();
 
@@ -225,7 +225,7 @@ export const ProductDetailPage: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
               <button
                 type="button"
-                onClick={() => addItem(product)}
+                onClick={() => addToCart(product)}
                 className="flex-1 py-4 bg-blue-600 hover:bg-blue-700 text-white font-black text-sm rounded-2xl shadow-xl flex items-center justify-center space-x-2 transition-all cursor-pointer"
               >
                 <ShoppingCart size={18} />

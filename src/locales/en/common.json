@@ -52,6 +52,9 @@
     "backToHome": "Back to Home",
     "loadMore": "Load More"
   },
+  "toast": {
+    "addedToCart": "“{{name}}” added to cart"
+  },
   "home": {
     "heroBadge": "Premium Tech Store",
     "heroTitle": "Online store for",

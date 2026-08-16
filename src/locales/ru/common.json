@@ -52,6 +52,9 @@
     "backToHome": "На главную",
     "loadMore": "Загрузить ещё"
   },
+  "toast": {
+    "addedToCart": "«{{name}}» добавлен в корзину"
+  },
   "home": {
     "heroBadge": "Премиум техника",
     "heroTitle": "Интернет-магазин",

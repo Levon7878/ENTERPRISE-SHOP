@@ -4,9 +4,9 @@ import { useTranslation } from 'react-i18next';
 import { Heart, Scale, ShoppingCart, Percent, Eye } from 'lucide-react';
 import { RatingStars } from '../../shared/components/ui/RatingStars';
 import { SafeImage } from '../../shared/components/ui/SafeImage';
-import { useCartStore } from '../../app/store/useCartStore';
 import { useWishlistStore } from '../../app/store/useWishlistStore';
 import { useCompareStore, useCurrencyStore } from '../../app/store/useCompareStore';
+import { useAddToCart } from '../../shared/hooks/useAddToCart';
 import { Product, Language } from '../../shared/types';
 
 interface ProductCardProps {
@@ -17,7 +17,7 @@ interface ProductCardProps {
 export const ProductCard: React.FC<ProductCardProps> = ({ product, lang }) => {
   const { t } = useTranslation('common');
   const { formatPrice } = useCurrencyStore();
-  const addItem = useCartStore((state) => state.addItem);
+  const addToCart = useAddToCart();
 
   const { toggleWishlist, isInWishlist } = useWishlistStore();
   const { toggleCompare, isInCompare } = useCompareStore();
@@ -118,9 +118,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, lang }) => {
         </div>
 
         <button
-          onClick={() => addItem(product)}
+          onClick={() => addToCart(product)}
           className="p-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl shadow-md hover:shadow-blue-500/30 transition-all cursor-pointer flex items-center space-x-1 text-xs font-bold"
-          aria-label="Add to cart"
+          aria-label={t('buttons.addToCart')}
         >
           <ShoppingCart size={16} />
           <span className="hidden sm:inline">{t('buttons.addToCart')}</span>

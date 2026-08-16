@@ -52,6 +52,9 @@
     "backToHome": "Վերադառնալ Գլխավոր",
     "loadMore": "Բեռնել ավելին"
   },
+  "toast": {
+    "addedToCart": "«{{name}}» ավելացվեց զամբյուղ"
+  },
   "home": {
     "heroBadge": "Պրեմիում տեխնիկա",
     "heroTitle": "Օնլայն խանութ",

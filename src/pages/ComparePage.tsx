@@ -3,19 +3,19 @@ import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Scale, Trash2, X, ShoppingCart } from 'lucide-react';
 import { useCompareStore, useCurrencyStore } from '../app/store/useCompareStore';
-import { useCartStore } from '../app/store/useCartStore';
+import { useAddToCart } from '../shared/hooks/useAddToCart';
 import { SEOHead } from '../features/seo/SEOHead';
 import { SafeImage } from '../shared/components/ui/SafeImage';
 import { Language } from '../shared/types';
 
 export const ComparePage: React.FC = () => {
   const { lang } = useParams<{ lang?: string }>();
-  const { i18n } = useTranslation('common');
+  const { t, i18n } = useTranslation('common');
   const currentLang = (lang || i18n.language || 'am') as Language;
   const { formatPrice } = useCurrencyStore();
 
   const { items, toggleCompare, clearCompare } = useCompareStore();
-  const addItem = useCartStore((state) => state.addItem);
+  const addToCart = useAddToCart();
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-8 py-8 space-y-8">
@@ -72,11 +72,11 @@ export const ComparePage: React.FC = () => {
                       <h4 className="font-bold text-slate-900 line-clamp-2 text-center">{prod.translations[currentLang].name}</h4>
                       <p className="text-base font-black text-blue-600 text-center">{formatPrice(prod.price)}</p>
                       <button
-                        onClick={() => addItem(prod)}
-                        className="w-full py-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl flex items-center justify-center space-x-1"
+                        onClick={() => addToCart(prod)}
+                        className="w-full py-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl flex items-center justify-center space-x-1 cursor-pointer"
                       >
                         <ShoppingCart size={14} />
-                        <span>Add to Cart</span>
+                        <span>{t('buttons.addToCart')}</span>
                       </button>
                     </div>
                   </th>

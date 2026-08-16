@@ -6,6 +6,7 @@ import { Header } from './shared/components/layout/Header';
 import { Footer } from './shared/components/layout/Footer';
 import { CartDrawer } from './features/cart/CartDrawer';
 import { ScrollToTop } from './shared/components/ScrollToTop';
+import { ToastHost } from './shared/components/ui/ToastHost';
 
 export const App: React.FC = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -24,6 +25,7 @@ export const App: React.FC = () => {
           <Footer />
 
           <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+          <ToastHost />
         </div>
       </BrowserRouter>
     </AppProviders>
