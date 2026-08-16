@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
-  Sparkles,
-  ArrowRight,
   ChevronDown,
   ChevronUp,
   CheckCircle2,
 } from 'lucide-react';
 import { SEOHead } from '../features/seo/SEOHead';
+import { CinematicHero } from '../features/home/CinematicHero';
 import { OrganizationSchema, WebsiteSchema, FAQSchema } from '../features/seo/schemas/Schemas';
 import { useProducts, useCategories, useBrands } from '../services/api/queries';
 import { ProductCard } from '../features/products/ProductCard';
@@ -36,8 +35,6 @@ export const HomePage: React.FC = () => {
     return p.isFeatured;
   });
 
-  const firstCategorySlug = categories?.[0]?.slug || 'smartphones';
-
   return (
     <div className="space-y-16 pb-16">
       <SEOHead
@@ -49,46 +46,9 @@ export const HomePage: React.FC = () => {
       <WebsiteSchema />
       <FAQSchema faqs={mockFAQs} lang={currentLang} />
 
-      <section className="relative overflow-hidden bg-slate-900 text-white rounded-3xl mx-4 sm:mx-8 mt-6 border border-slate-800 shadow-2xl">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-slate-900 to-indigo-950/80 z-10" />
-        <SafeImage
-          src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1600&q=80"
-          alt={t('home.heroTitleAccent')}
-          className="absolute inset-0 w-full h-full object-cover opacity-20"
-        />
+      <CinematicHero productsSectionId="home-products" categoriesSectionId="home-categories" />
 
-        <div className="relative z-20 max-w-7xl mx-auto px-6 sm:px-12 py-16 sm:py-24 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          <div className="lg:col-span-8 space-y-6">
-            <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 border border-blue-500/30 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest">
-              <Sparkles size={14} />
-              <span>{t('home.heroBadge')}</span>
-            </div>
-
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-none text-white">
-              {t('home.heroTitle')} <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-amber-300">
-                {t('home.heroTitleAccent')}
-              </span>
-            </h1>
-
-            <p className="text-sm sm:text-base text-slate-300 max-w-2xl leading-relaxed">
-              {t('home.heroDescription')}
-            </p>
-
-            <div className="flex flex-wrap gap-4 pt-2">
-              <Link
-                to={`/${currentLang}/category/${firstCategorySlug}`}
-                className="px-6 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-2xl shadow-xl hover:shadow-blue-500/30 transition-all flex items-center space-x-2"
-              >
-                <span>{t('buttons.buyNow')}</span>
-                <ArrowRight size={18} />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="max-w-7xl mx-auto px-4 sm:px-8 space-y-6">
+      <section id="home-categories" className="max-w-7xl mx-auto px-4 sm:px-8 space-y-6 scroll-mt-40">
         <div className="flex justify-between items-end">
           <div>
             <h2 className="text-2xl font-black text-slate-900 tracking-tight">{t('home.popularCategories')}</h2>
@@ -123,7 +83,7 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-8 space-y-6">
+      <section id="home-products" className="max-w-7xl mx-auto px-4 sm:px-8 space-y-6 scroll-mt-40">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4">
           <h2 className="text-2xl font-black text-slate-900 tracking-tight">{t('home.topDeals')}</h2>
 
